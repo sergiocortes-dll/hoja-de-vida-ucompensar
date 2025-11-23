@@ -60,18 +60,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
     console.log(`¡Bienvenido! Esta es tu visita número: ${visitCount}`);
 });
-
-function toggleTheme() {
-    document.body.classList.toggle('dark-theme');
-}
-
-function downloadCV() {
-    alert('Descargando CV... En una implementación real, esto descargaría tu archivo PDF.');
-}
-
-function copyEmail() {
-    const email = 'contacto.sergiocortes@gmail.com';
-    navigator.clipboard.writeText(email).then(() => {
-        alert('Email copiado al portapapeles: ' + email);
-    });
-}

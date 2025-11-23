@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos - Sergio Cortes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container" id="container">
+      <div class="profile">
+        <div class="avatar-placeholder">
+          <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="8" r="4" fill="#333" />
+            <path d="M12 14C7.58172 14 4 17.5817 4 22H20C20 17.5817 16.4183 14 12 14Z" fill="#333" />
+          </svg>
+        </div>
+        <h1>Sergio Cortes</h1>
+        <p class="title">Ingeniero de Software</p>
+        <p class="location">
+          <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-map-pin-icon lucide-map-pin">
+            <path
+              d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+            <circle cx="12" cy="10" r="3" />
+          </svg> Bogotá D.C, Colombia
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li class="active"><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <section class="projects">
+        <h2>Proyectos Destacados</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Portafolio Personal</h3>
+              <span class="project-badge">Full-Stack</span>
+            </div>
+            <p class="project-description">Sitio web personal desarrollado con HTML5, CSS3 y JavaScript vanilla. Diseño
+              responsivo y moderno con esquema de colores blanco y negro.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Git</span>
+              <span class="tech-tag">GitHub Pages</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Ver Demo</a>
+              <a href="#" class="project-link">Código Fuente</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>AODESU - Gestor de Tareas</h3>
+              <span class="project-badge">React + Node.js</span>
+            </div>
+            <p class="project-description">Aplicación web para gestión de tareas con funcionalidades CRUD completas.
+              Interfaz intuitiva y almacenamiento local.</p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">Tailwind CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Ver Demo</a>
+              <a href="#" class="project-link">Código Fuente</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>API REST Académica</h3>
+              <span class="project-badge">Backend</span>
+            </div>
+            <p class="project-description">API RESTful para gestión de estudiantes y cursos. Implementa autenticación
+              JWT y operaciones CRUD completas.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">JWT</span>
+              <span class="tech-tag">Swagger</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Documentación</a>
+              <a href="#" class="project-link">Código Fuente</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/sergiocortes-dll/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+        <a href="https://github.com/sergiocortes-dll" target="_blank" rel="noreferrer noopener">GitHub</a>
+        <a href="mailto:contacto.sergiocortes@gmail.com">contacto.sergiocortes@gmail.com</a>
+      </div>
+      <p>&copy; 2025 Sergio Cortes. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+  <script type="importmap">
+    			{
+    				"imports": {
+    					"three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+    						"jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+    				}
+    			}
+    		</script><script src="./js/vortex.js" type="module"></script>
+</body>
+
+</html>

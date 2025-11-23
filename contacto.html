@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Sergio Cortes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container" id="container">
+      <div class="profile">
+        <div class="avatar-placeholder">
+          <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="8" r="4" fill="#333" />
+            <path d="M12 14C7.58172 14 4 17.5817 4 22H20C20 17.5817 16.4183 14 12 14Z" fill="#333" />
+          </svg>
+        </div>
+        <h1>Sergio Cortes</h1>
+        <p class="title">Ingeniero de Software</p>
+        <p class="location">
+          <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-map-pin-icon lucide-map-pin">
+            <path
+              d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+            <circle cx="12" cy="10" r="3" />
+          </svg> Bogotá D.C, Colombia
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li class="active"><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <section class="contact">
+        <h2>Contáctame</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Información de Contacto</h3>
+            <div class="contact-item">
+              <strong>📧 Email:</strong>
+              <p>contacto.sergiocortes@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <strong>📱 Teléfono:</strong>
+              <p>+57 300 300 3000</p>
+            </div>
+            <div class="contact-item">
+              <strong>📍 Ubicación:</strong>
+              <p>Bogotá D.C, Colombia</p>
+            </div>
+            <div class="contact-item">
+              <strong>💼 LinkedIn:</strong>
+              <p><a href="https://www.linkedin.com/in/sergiocortes-dll/" target="_blank">linkedin.com/in/sergiocortes-dll</a></p>
+            </div>
+            <div class="contact-item">
+              <strong>💻 GitHub:</strong>
+              <p><a href="https://github.com/sergiocortes-dll" target="_blank">github.com/sergiocortes-dll</a></p>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3>Envíame un Mensaje</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Nombre Completo:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required
+                  placeholder="Cuéntame sobre tu proyecto o cómo puedo ayudarte..."></textarea>
+              </div>
+              <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/sergiocortes-dll/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+        <a href="https://github.com/sergiocortes-dll" target="_blank" rel="noreferrer noopener">GitHub</a>
+        <a href="mailto:contacto.sergiocortes@gmail.com">contacto.sergiocortes@gmail.com</a>
+      </div>
+      <p>&copy; 2025 Sergio Cortes. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+  <script type="importmap">
+  			{
+  				"imports": {
+  					"three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+  						"jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+  				}
+  			}
+  		</script>
+  <script src="./js/vortex.js" type="module"></script>
+
+</body>
+
+</html>
